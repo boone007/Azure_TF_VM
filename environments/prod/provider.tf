@@ -10,14 +10,7 @@ terraform {
       version = "3.1.0"
     }
   }
-  /*
-  backend "azurerm" {
-    resource_group_name  = "devopsexperiences-storage"
-    storage_account_name = "alien39"
-    container_name       = "terraformstate"
-    key                  = "windows_vms.tfstate"
-  }
-*/
+
   required_version = ">= 0.14.9"
 }
 
